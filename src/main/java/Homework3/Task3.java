@@ -14,14 +14,6 @@ public class Task3 {
             planets.add(solarSystemPlanets[randIndex]);
         }
 
-        planets.add("Pluto");
-        planets.add("Pluto");
-        planets.add("Pluto");
-        planets.add("Pluto");
-
-/*        for (String planet : planets) {
-            System.out.printf("%s\t%s", planet, Collections.frequency(planets, planet));
-        }*/
 
         for (String planet : planets) {
             if (planetCount.containsKey(planet)) {
